@@ -1,0 +1,195 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.daverickdunn.campusmapv2.DetailActivity$PlaceholderFragment">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:gravity="center"
+                android:background="#FFD54F"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:textSize="18dp"
+                android:text="Module: "/>
+
+            <TextView
+                android:gravity="center"
+                android:background="#FFECB3"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="fill_parent"
+                android:textSize="24dp"
+                android:id="@+id/a_title" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:gravity="center"
+                android:background="#4DD0E1"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:textSize="18dp"
+                android:text="Code: "/>
+
+            <TextView
+                android:gravity="center"
+                android:background="#B2EBF2"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="fill_parent"
+                android:textSize="24dp"
+                android:id="@+id/a_mod" />
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:gravity="center"
+                android:background="#E57373"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:textSize="18dp"
+                android:text="Lecturer:"/>
+
+            <TextView
+                android:gravity="center"
+                android:background="#FFCDD2"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="fill_parent"
+                android:textSize="24dp"
+                android:id="@+id/a_lect" />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:gravity="center"
+                android:background="#DCE775"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:textSize="18dp"
+                android:text="Room:"/>
+
+            <TextView
+                android:gravity="center"
+                android:background="#F0F4C3"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="fill_parent"
+                android:textSize="24dp"
+                android:id="@+id/a_room" />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:gravity="center"
+                android:background="#7986CB"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:textSize="18dp"
+                android:text="Day: "/>
+
+            <TextView
+                android:gravity="center"
+                android:background="#C5CAE9"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="fill_parent"
+                android:textSize="24dp"
+                android:id="@+id/a_day" />
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:gravity="center"
+                android:background="#FF8A65"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="fill_parent"
+                android:textSize="18dp"
+                android:text="Lab: "/>
+
+            <TextView
+                android:gravity="center"
+                android:background="#FFCCBC"
+                android:layout_width="0dp"
+                android:layout_weight="5"
+                android:layout_height="fill_parent"
+                android:textSize="24dp"
+                android:id="@+id/a_lab" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

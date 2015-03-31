@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">NUIG Timetable App</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_detail">Class Details</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="pref_course_label" translatable="false">Choose a Course</string>
+    <string name="pref_course_key" translatable="false">Course</string>
+    <string name="pref_course_default" translatable="false">2BCT</string>
+
+    <string name="sync_account_type">daverickdunn.campusmapv2.com</string>
+    <string name="content_authority">com.daverickdunn.campusmapv2</string>
+
+</resources>
